@@ -1,7 +1,7 @@
 /**
  * Data types are divided into two groups:
  * Primitive data types - byte, short, int, long, float, double, boolean and char.
- * Non-primitive data types - String, Arrays and Classes
+ * Non-primitive data types - String, Arrays, Classes, Interface
  */
 
 public class Main{

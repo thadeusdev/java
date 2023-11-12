@@ -1,15 +1,14 @@
 /**
- * when you are working with multiple parameters, the method call must have the same number of arguments as there are parameters, and the arguments must be passed in the same order.
+ * If you want the method to return a value, you can use a primitive data type (such as int, char, etc.) instead of void, and use the return keyword inside the method:
  */
 
 public class Main {
-    static void myMethod(String fname, int age) {
-        System.out.println(fname + " is " + age);
+    static int myMethod(int x, int y) {
+        return x + y;
     }
 
     public static void main(String[] args) {
-        myMethod("Liam", 5);
-        myMethod("Jenny", 8);
-        myMethod("Anja", 31);
+        int z = myMethod(5, 3);
+        System.out.println(z);
     }
 }
